@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    background-color: black;
+    width: 40rem;
+    height: 39rem;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+#header-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#date-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#date-back{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 250px;
+    font-weight: bold;
+}
+
+#date-next{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 250px;
+    font-weight: bold;
+}
+
+.info{
+    height: 490px;
+}
+
+.add{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-submit{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#btn-submit:hover{
+    background-color: white;
+    border: 0;
+    color: black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#btn-submit:active{
+    opacity: 0.3;
+    transition: 0.2s;
+}
